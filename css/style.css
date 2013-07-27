@@ -1,0 +1,40 @@
+*{
+	font-family: arial;
+	color: #4BB5C1;
+}
+h1{
+	padding: 8px;
+}
+#blogTitle{
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#content{
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.post{
+	width: 300px;
+	margin: 8px;
+	border: 2px solid #4BB5C1;
+	border-radius: 4px;
+}
+.title{
+	font-weight: bold;
+	color: #ffffff;
+	padding: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #4BB5C1;
+	border-radius: 2px;
+}
+.postContent{
+	padding: 8px;
+	color: #2C6970;
+}
+.date{
+	font-size: 12px;
+	padding: 8px;
+}
