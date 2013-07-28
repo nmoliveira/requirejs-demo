@@ -7,7 +7,7 @@ requirejs.config({
 });
 
 // Start the main app logic.
-require(['app/blog'],
+requirejs(['app/blog'],
 function   (blog) {
     blog.start();
 });
