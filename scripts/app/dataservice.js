@@ -1,4 +1,4 @@
-define(['jquery'],function($,util){
+define(['jquery'],function($){
 	var getPosts = function(callback){
 		$.get('data/posts.json',callback)
 	};
