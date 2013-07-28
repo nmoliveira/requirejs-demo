@@ -1,4 +1,4 @@
-define(['jquery','app/dataservice', 'app/presenter'], function($,dataservice, presenter){
+define(['app/dataservice', 'app/presenter'], function(dataservice, presenter){
 	var start = function(){
 		dataservice.getPosts(presenter.renderPosts);
 	};
